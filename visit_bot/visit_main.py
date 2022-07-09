@@ -2,10 +2,7 @@ from aiogram import Dispatcher, types, Bot
 from aiogram.utils import executor
 from vbtns import main_page
 
-#* just a "business card bot"
-
-TOKEN = '5476756483:AAE1ki8t_w5LYVuXonPqhGxAbQOOuuio4CI'
-bot = Bot(TOKEN)
+bot = Bot(your_token)
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands = 'start')
