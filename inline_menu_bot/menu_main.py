@@ -35,4 +35,6 @@ async def main(call: types.CallbackQuery):
         await bot.delete_message(chat_id = call.from_user.id, message_id = call.message.message_id)
         await bot.send_message(call.from_user.id, 'this is page number 3 with some price info', reply_markup = page_3)
 
-executor.start_polling(dp)
+if __name__ == '__main__':
+    executor.start_polling(dp)
+#| coded by codem
