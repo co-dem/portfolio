@@ -1,6 +1,6 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-TOKEN = '5317213631:AAHDUv3QjY6Y4aU_PIsCWe-fzIFcZjWS-e8'
+TOKEN = 'your_token'
 
 page_1 = InlineKeyboardMarkup(
     inline_keyboard = [
