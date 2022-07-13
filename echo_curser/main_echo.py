@@ -3,7 +3,7 @@ from aiogram.utils import executor
 from aiogram.utils.exceptions import MessageToDeleteNotFound
 
 from btns import word_moderating_markup
-from config import TOKEN, CURSES, MODERATED_WORDS, ADMIN_ID
+from config import TOKEN, CURSES, MODERATED_WORDS
 
 from dataclasses import dataclass
 from fuzzywuzzy import fuzz
