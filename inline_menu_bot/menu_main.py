@@ -23,7 +23,7 @@ async def main(call: types.CallbackQuery):
         await bot.send_message(call.from_user.id, 'some info about my prices')
     
     #*---------- page switching ----------*#
-    elif call.data == 'back_to_page_1':
+    if call.data == 'back_to_page_1':
         await bot.delete_message(chat_id = call.from_user.id, message_id = call.message.message_id)
         await bot.send_message(call.from_user.id, 'here you can get some info about me', reply_markup = page_1)
 
