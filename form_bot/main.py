@@ -97,3 +97,4 @@ async def sharp_func(message: types.message, state: FSMContext):
         await bot.send_message(message.from_user.id,'введите один из выше перечисленных хештегов')
 
 executor.start_polling(dp)
+#| coded by c0dem
