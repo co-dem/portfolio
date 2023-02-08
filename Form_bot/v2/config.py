@@ -1,7 +1,7 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
-TOKEN = '5317213631:AAHDUv3QjY6Y4aU_PIsCWe-fzIFcZjWS-e8'
-admin_id = 798330024
+TOKEN = 'your_token'     # bot's token
+admin_id = <admin_id>    # admin's telegram id
 
 main_panel = ReplyKeyboardMarkup(
     keyboard = [
