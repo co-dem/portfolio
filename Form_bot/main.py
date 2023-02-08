@@ -1,3 +1,4 @@
+from aiogram.types import RelpyKeyboardRemove
 from aiogram import Dispatcher, Bot, types, executor
 
 from aiogram.dispatcher import FSMContext
