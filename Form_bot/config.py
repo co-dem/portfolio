@@ -1,4 +1,4 @@
-from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 TOKEN = 'your_token'     # bot's token
 admin_id = <admin_id>    # admin's telegram id
