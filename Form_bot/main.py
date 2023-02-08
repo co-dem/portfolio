@@ -48,7 +48,7 @@ async def set_name_func(message: types.Message, state: FSMContext):
         await Form.next()
 
 #* age setting
-# if you are under 18, then you are declined
+#TODO: if you are under 18, then you are declined
 # if you sent message with letters, then bot is gonna ask you to reenter your age
 @dp.message_handler(state = Form.age)
 async def set_age(message: types.Message, state: FSMContext):
