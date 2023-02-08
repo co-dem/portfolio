@@ -1,5 +1,4 @@
 from aiogram import Dispatcher, Bot, types, executor
-from aiogram.types import ReplyKeyboardRemove
 
 from aiogram.dispatcher import FSMContext
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
