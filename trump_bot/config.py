@@ -2,10 +2,10 @@ from aiogram import Bot
 from aiogram.types import BotCommand, BotCommandScopeAllPrivateChats,\
                           ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton, InlineKeyboardMarkup
 
-TOKEN = '6199940465:AAE5pu7cvGiPbzK5EKGMXXn1HFIZ1uJoPhg'
-PAYMENT_TOKEN = '381764678:TEST:54241'
-MANAGER_ID   = 798330024
-DEVELOPER_ID = 798330024
+TOKEN = 'token'
+PAYMENT_TOKEN = 'token'
+MANAGER_ID   = 12345
+DEVELOPER_ID = 12345
 
 product_photo = {
     'airpods pro': 'https://www.apple.com/newsroom/images/product/airpods/standard/Apple_AirPods-Pro_New-Design_102819_big.jpg.large.jpg',
