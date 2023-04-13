@@ -1,7 +1,7 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
-TOKEN = '5317213631:AAHDUv3QjY6Y4aU_PIsCWe-fzIFcZjWS-e8'
-PAYMENT_TOKEN = '381764678:TEST:54491'
+TOKEN = 'your bot token'
+PAYMENT_TOKEN = 'your payment token'
 
 user_main_menu = ReplyKeyboardMarkup(
     keyboard = [
