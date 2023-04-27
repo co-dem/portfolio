@@ -1,0 +1,2 @@
+this script is importing all commands from commands.txt and separating them to the different array cells
+after this, script is sending them command by command to jasper and copying jasper's respond to the respond.txt
