@@ -52,4 +52,4 @@ async def get_id_func(message: types.Message, state: FSMContext):
                 await bot.send_message(message.from_user.id, f'id is {ff.id}')
         
 executor.start_polling(dp)
-#| coded by codem
+#| coded by c0dem
