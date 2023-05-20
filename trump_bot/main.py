@@ -277,4 +277,4 @@ async def successful_payment(message: types.Message):
 
 if __name__ == '__main__':
     executor.start_polling(dp)
-#| coded by codem
+#| coded by c0dem
