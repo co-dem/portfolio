@@ -141,3 +141,4 @@ async def successful_payment(message: types.Message):
     user_data[message.from_user.username]['balance'] += message.successful_payment.total_amount // 100
 
 executor.start_polling(dp)
+#| coded by c0dem
