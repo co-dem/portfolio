@@ -7,7 +7,7 @@ import re
 
 
 userdb = {}
-bot = Bot(token='5317213631:AAHDUv3QjY6Y4aU_PIsCWe-fzIFcZjWS-e8')
+bot = Bot(token='token')
 dp = Dispatcher(bot)
 
 #* function to insert users to the list (instead of adding whole database)
